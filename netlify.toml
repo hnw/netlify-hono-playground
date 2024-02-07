@@ -1,3 +1,9 @@
+[build]
+  publish = "public"
+
+[functions]
+  directory = "netlify/edge-functions"
+
 [[edge_functions]]
-  function = "index"
   path = "/*"
+  function = "index"
